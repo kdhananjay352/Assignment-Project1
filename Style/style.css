@@ -1,0 +1,104 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+    body {
+background-image: url("../assets/background image.png");
+width: 1024px;
+background-repeat: no-repeat;
+filter:blur(10%);
+background-attachment: fixed;
+background-position: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+button{
+    background-color: #ff515f;
+    color: white;
+    width: fit-content;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+nav .logo img{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    right: 250px;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:#ffc233 ;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    font-weight: 500px;
+}
+
+nav ul li a:hover{
+    text-decoration: underlined;
+    font-weight: 900;
+    color: white;
+    background-color: #ff515f;
+    padding: 4px 15px;
+}
+
+
+main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color: #ffc233;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.scroll-img{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 300px;
+    cursor: pointer;
+}
+
+main button{
+    font-size: 18px;
+    padding: 15px 35px;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+nav button{
+    display: flex;
+    position:relative;
+    left: 350px;
+    top: 10px;
+}   
